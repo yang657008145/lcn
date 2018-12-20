@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="transaction-dubbo" />
+        <module name="transaction-motan" />
+        <module name="transaction-springcloud" />
+        <module name="tx-client" />
+        <module name="tx-manager" />
+        <module name="tx-plugins-db" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="transaction-dubbo" target="1.7" />
+      <module name="transaction-motan" target="1.7" />
+      <module name="transaction-springcloud" target="1.7" />
+      <module name="tx-client" target="1.7" />
+      <module name="tx-lcn" target="1.7" />
+      <module name="tx-manager" target="1.7" />
+      <module name="tx-plugins-db" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
